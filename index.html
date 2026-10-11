@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Tambola</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<div class="app">
+
+    <header class="app-header">
+        <h1>TAMBOLA<span>.</span></h1>
+        <p>Number Caller</p>
+    </header>
+
+    <main class="dashboard">
+
+        <section class="game-panel">
+            <p class="section-label">CURRENT NUMBER</p>
+
+            <p id="currentNumber">--</p>
+
+            <div class="controls">
+                <button id="generateNumberBtn">
+                    Generate Number
+                </button>
+
+                <button id="resetBtn">
+                    Reset Game
+                </button>
+            </div>
+
+            <p class="game-tip" id="gameStatus">Ready to play? Let's go!</p>
+        </section>
+
+        <section class="board-panel">
+            <h2>Number Board</h2>
+            <div id="container"></div>
+        </section>
+
+    </main>
+
+    <section id="history">
+        <h2>Called Numbers</h2>
+   
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
